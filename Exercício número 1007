@@ -1,0 +1,13 @@
+programa {
+    funcao inicio() {
+        inteiro A, B, C, D, DIFERENCA
+        
+        A = 0
+        B = 0
+        C = 7
+        D = 8
+        
+        DIFERENCA = (A * B - C * D)
+        
+        escreva("O valor de DIFERENCA é: ", DIFERENCA)
+    }
