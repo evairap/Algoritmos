@@ -1,0 +1,16 @@
+programa {
+    funcao inicio() {
+        inteiro tempo, velocidade
+        real distancia, litros
+          escreva("Digite o tempo gasto na viagem (em horas): ")
+                  leia(tempo)
+                   escreva("Digite a velocidade média (em km/h): ")
+        leia(velocidade)
+        distancia = tempo * velocidade
+        litros = distancia / 12
+
+escreva("distancia é:", distancia )
+escreva("litros é:", litros )
+
+    }
+}
