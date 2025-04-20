@@ -1,0 +1,12 @@
+programa {
+	funcao inicio() {
+		inteiro senha
+		faca{
+			escreva("digite a senha:")
+			leia(senha)
+		se (senha != 2002){
+		   escreva("senha Invalida!")
+		}
+		} enquanto(senha != 2002)
+	}
+}
