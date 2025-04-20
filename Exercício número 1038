@@ -1,0 +1,43 @@
+
+programa
+{
+    funcao inicio()
+    {
+        inteiro codigo, quantidade
+        real total
+        
+      
+        escreva("Digite o código e a quantidade: ")
+        leia(codigo, quantidade)
+      
+        escolha(codigo)
+        {
+            caso 1: 
+                total = quantidade * 4.00
+                pare
+                
+            caso 2: 
+                total = quantidade * 4.50
+                pare
+                
+            caso 3: 
+                total = quantidade * 5.00
+                pare
+                
+            caso 4: 
+                total = quantidade * 2.00
+                pare
+                
+            caso 5: 
+                total = quantidade * 1.50
+                pare
+                
+            caso contrario:
+                escreva("Código de produto inválido!")
+                retorne
+        }
+        
+        escreva("Total: R$ ")
+        escreva(total)
+    }
+}
