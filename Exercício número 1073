@@ -1,0 +1,32 @@
+programa
+{
+    funcao inicio()
+    {
+        inteiro N, i
+        
+        escreva("Digite um valor inteiro N (5 < N < 2000): ")
+        leia(N)
+        
+        // Verifica se N está dentro do intervalo válido
+        se (N <= 5 ou N >= 2000)
+        {
+            escreva("Valor fora do intervalo permitido!")
+            retorne
+        }
+        
+        para (i = 1; i <= N; i++)
+        {
+
+            se (i % 2 == 0)
+            {
+                escreva(i, "^2 = ", i * i)
+                
+
+                se (i + 2 <= N)
+                {
+                    escreva(" ")
+                }
+            }
+        }
+    }
+}
